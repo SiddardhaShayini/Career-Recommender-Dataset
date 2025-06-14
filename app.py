@@ -6,6 +6,11 @@ from utils.career_recommender import CareerRecommender
 from data.interests_mapping import INTERESTS_LIST, INTEREST_KEYWORDS
 import os
 
+with open("requirements.txt", "r") as file:
+    print("🚨 REQUIREMENTS.TXT CONTENT 🚨")
+    print(file.read())
+
+
 # Page configuration
 st.set_page_config(
     page_title="AI Virtual Career Counsellor",
