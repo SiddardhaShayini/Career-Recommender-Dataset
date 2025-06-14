@@ -1,0 +1,3 @@
+# System packages required for NLTK and other dependencies
+build-essential
+python3-dev
