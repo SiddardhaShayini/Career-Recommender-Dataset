@@ -4,6 +4,9 @@ import joblib
 import streamlit as st
 import numpy as np
 
+# TensorFlow is not available in this deployment, using fallback recommendations
+TENSORFLOW_AVAILABLE = False
+
 class ModelLoader:
     def __init__(self):
         self.models_path = "attached_assets"
@@ -43,8 +46,8 @@ class ModelLoader:
     @st.cache_resource
     def load_career_model(_self):
         """Load the career recommendation neural network model"""
-        # TensorFlow model temporarily disabled due to compatibility issues
-        # Using rule-based fallback recommendations instead
+        # TensorFlow model not available in deployment environment
+        # Application uses intelligent rule-based recommendations instead
         return None
     
     @st.cache_resource
