@@ -263,30 +263,6 @@ base = "light"
 
 ## 🔧 Development
 
-### Project Structure
-```
-ai-career-counsellor/
-├── app.py                          # Main application entry point
-├── components/
-│   └── chat_interface.py          # Chat UI and interaction logic
-├── utils/
-│   ├── text_processor.py          # NLP processing utilities
-│   ├── career_recommender.py      # ML recommendation engine
-│   ├── career_qa_system.py        # Intelligent Q&A system
-│   └── web_scraper.py             # Web data extraction
-├── models/
-│   └── model_loader.py            # ML model management
-├── data/
-│   ├── interests_mapping.py       # Interest categories and keywords
-│   └── career_knowledge_base.py   # Comprehensive career database
-├── attached_assets/               # Pre-trained models and datasets
-├── .streamlit/
-│   └── config.toml                # Streamlit configuration
-├── requirements.txt               # Python dependencies
-├── replit.md                      # Project documentation
-└── README.md                      # This file
-```
-
 ### Adding New Features
 
 #### New Career Information
@@ -341,27 +317,6 @@ ai-career-counsellor/
 - **Cloud-Native Deployment**: Kubernetes orchestration
 - **Data Lake Integration**: Big data analytics and insights
 
-## 🤝 Contributing
-
-### Development Process
-1. **Fork Repository**: Create your development branch
-2. **Follow Standards**: Adhere to code quality guidelines
-3. **Add Tests**: Include unit tests for new features
-4. **Update Documentation**: Maintain README and inline documentation
-5. **Submit Pull Request**: Detailed description of changes
-
-### Bug Reports
-- **Issue Template**: Use provided GitHub issue templates
-- **Reproduction Steps**: Clear steps to reproduce the problem
-- **Environment Info**: Python version, OS, and package versions
-- **Expected vs Actual**: Clear description of the issue
-
-### Feature Requests
-- **Use Case Description**: Explain the problem being solved
-- **Proposed Solution**: Detailed implementation suggestions
-- **Alternative Approaches**: Consider multiple solutions
-- **Impact Assessment**: Benefits and potential drawbacks
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -373,46 +328,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Streamlit**: Apache License 2.0
 - **Pandas**: BSD 3-Clause License
 
-## 🙏 Acknowledgments
-
-### Open Source Libraries
-- **NLTK Team**: Natural language processing capabilities
-- **Scikit-learn Contributors**: Machine learning framework
-- **Streamlit Team**: Web application framework
-- **TensorFlow Community**: Deep learning infrastructure
-
-### Data Sources
-- **Bureau of Labor Statistics**: Career outlook and salary data
-- **Educational Institutions**: Course curriculum information
-- **Industry Reports**: Market trends and insights
-
-### Special Thanks
-- **Career Counselling Professionals**: Domain expertise and validation
-- **Beta Testers**: Feedback and improvement suggestions
-- **Open Source Community**: Continuous support and contributions
-
-## 📞 Support & Contact
-
-### Documentation
-- **User Guide**: Comprehensive usage instructions
-- **Developer Docs**: Technical implementation details
-- **API Reference**: Complete function and method documentation
-- **FAQ**: Common questions and troubleshooting
-
-### Community
-- **GitHub Issues**: Bug reports and feature requests
-- **Discussions**: Community forum for questions and ideas
-- **Contributing Guide**: How to get involved in development
-
-### Professional Support
-- **Consulting**: Custom implementation and integration services
-- **Training**: Workshops and educational programs
-- **Enterprise**: Commercial licensing and support options
+**Built with ❤️ for career guidance and professional development**
 
 ---
 
-**Built with ❤️ for career guidance and professional development**
+## 🙋‍♂️ Author
 
-*Last Updated: June 14, 2025*
-*Version: 1.2.0*
-*Status: Active Development*
+**Siddardha Shayini**  
+
+---
